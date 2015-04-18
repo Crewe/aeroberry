@@ -30,14 +30,12 @@ def read_command(address, command):
 
 
 class UART():
-	"""
-	To handle serial comms of over UART bus
+	"""To handle serial comms of over UART bus
 	"""
 
 
 class I2C():
-	"""
-	To handle serial comms using the I2C protocol
+	"""To handle serial comms using the I2C protocol
 	"""
 
 

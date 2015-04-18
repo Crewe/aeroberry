@@ -47,6 +47,8 @@ def main_loop():
             time.sleep(1)
 
         # Turn on relays one at a time
-        for port in PORT_A:
+        for port in Ports.PORT_A:
             GPIO.output(port, GPIO.LOW)
             time.sleep(1)
+
+main_loop()
